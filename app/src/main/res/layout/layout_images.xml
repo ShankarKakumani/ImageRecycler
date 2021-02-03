@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/linearRecycler"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/purple_500">
+
+    <ImageView
+        android:id="@+id/imageViewRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="ContentDescription"
+        android:adjustViewBounds="true"
+        android:maxHeight="400dp"
+        />
+
+</LinearLayout>
